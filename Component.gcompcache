@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SourceFile xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34708" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="4.7.1.34708" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49152" />
-		<ApplicationVersionInfo Build="4.7.1.34708" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34759" FeatureSetName="Common Language Components" MinimumParsableVersion="4.7.0.1" MinimumSemanticallyEquivalentVersion="4.7.0.1" Name="http://www.ni.com/MocCommon" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.7.1.34759" FeatureSetName="Editor" MinimumParsableVersion="4.7.0.4" MinimumSemanticallyEquivalentVersion="4.7.0.4" Name="http://www.ni.com/PlatformFramework" Version="4.7.0.49153" />
+		<ApplicationVersionInfo Build="4.7.1.34759" Name="LabVIEW Platform Developer Preview" Version="0.1.0" />
 	</SourceModelFeatureSet>
 	<UserSettingsDefinition Envoy="17" Name=":VireoBrowser:Interactive:Component:Function\.gvi">
 		<DefinitionCacheUserSetting Envoy="17" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
-			<FunctionDefinitionSignatureCache CacheSignature="1D1E55079BF7A80" Height="40" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/MocCommon">
+			<FunctionDefinitionSignatureCache CacheSignature="1D1E56CCE46DB67" Height="40" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/MocCommon">
 				<p.IconModel>
 					<MergeScript xmlns="http://www.ni.com/PlatformFramework">
 						<MergeItem Path="." IsPrimary="True">
@@ -33,9 +33,13 @@
 					</MergeScript>
 				</p.IconModel>
 				<CachedMethodCallDependency SourceId="753" TargetName="Component:Update\ Tag\ \(Double\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-				<CachedMethodCallDependency SourceId="757,823,898,902,908,925" TargetName="Component:Read\ Tag\ \(Double\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+				<CachedMethodCallDependency SourceId="757,823,898,902,908,925,942" TargetName="Component:Read\ Tag\ \(Double\)\.gvi" xmlns="http://www.ni.com/PlatformFramework" />
 			</FunctionDefinitionSignatureCache>
 		</DefinitionCacheUserSetting>
+		<ScrollAndZoomSettingCache Envoy="17" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
+			<ScrollAndZoomEditor EditorName="HtmlVIPanelControl" ScrollHorizontalOffset="0" ScrollVerticalOffset="0" Zoom="1" />
+			<ScrollAndZoomEditor EditorName="VIDiagramControl" ScrollHorizontalOffset="211" ScrollVerticalOffset="350" Zoom="1" />
+		</ScrollAndZoomSettingCache>
 	</UserSettingsDefinition>
 	<UserSettingsDefinition Envoy="23" Name=":VireoBrowser:Interactive:Component:Read\ Tag\ \(Double\)\.gvi">
 		<DefinitionCacheUserSetting Envoy="23" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
