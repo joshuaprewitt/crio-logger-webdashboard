@@ -67,7 +67,6 @@ ni-tab-item[data-ni-base-style="uninitialized"] {
 **************************************/
 ni-array-viewer {
     display: inline-block;
-    outline: 1px solid #C5C5C5;
 }
 
 /*************************************
@@ -203,6 +202,7 @@ ni-boolean-switch[shape="slider"] .ni-off-label {
 * Cartesian Graph
 **************************************/
 ni-cartesian-graph {
+    display: inline-block;
     min-height: 20px;
 }
 
@@ -210,6 +210,7 @@ ni-cartesian-graph {
 * Chart
 **************************************/
 ni-chart {
+    display: inline-block;
     min-height: 20px;
 }
 
@@ -682,6 +683,7 @@ ni-image .ni-stretch-fill {
 * Intensity Graph
 **************************************/
 ni-intensity-graph {
+    display: inline-block;
     min-height: 20px;
 }
 
@@ -733,11 +735,6 @@ ni-numeric-text-box {
 
 ni-numeric-text-box[read-only] input {
     background-color: #efefef;
-}
-
-/* TODO mraj IE11 does not support initial*/
-ni-numeric-text-box[read-only="false"] input {
-    background-color: initial;
 }
 
 /*************************************
@@ -1101,11 +1098,6 @@ ni-string-control[read-only] textarea {
     background-color: #efefef;
 }
 
-/* TODO mraj IE11 does not support initial*/
-ni-string-control[read-only="false"] textarea {
-    background-color: initial;
-}
-
 ni-string-control textarea {
     border: 1px solid #2b3033;
     border-radius: 0px;
@@ -1164,10 +1156,6 @@ ni-text {
 **************************************/
 ni-time-stamp-text-box {
     display: inline-block;
-}
-
-ni-time-stamp-text-box .ni-disable {
-    pointer-events: none;
 }
 
 /*************************************
